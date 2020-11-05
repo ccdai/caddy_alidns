@@ -38,17 +38,23 @@ func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 		for nesting := d.Nesting(); d.NextBlock(nesting); {
 			switch d.Val() {
 			case "accesskey_id":
-				p.Provider.AccessKeyID = repl.ReplaceAll(d.Val(), "")
+				if d.NextArg() {
+					p.Provider.AccessKeyID = repl.ReplaceAll(d.Val(), "")
+				}
 				if d.NextArg() {
 					return d.ArgErr()
 				}
 			case "accesskey_secret":
-				p.Provider.AccessKeySecret = repl.ReplaceAll(d.Val(), "")
+				if d.NextArg() {
+					p.Provider.AccessKeySecret = repl.ReplaceAll(d.Val(), "")
+				}
 				if d.NextArg() {
 					return d.ArgErr()
 				}
 			case "region_id":
-				p.Provider.RegionID = repl.ReplaceAll(d.Val(), "")
+				if d.NextArg() {
+					p.Provider.RegionID = repl.ReplaceAll(d.Val(), "")
+				}
 				if d.NextArg() {
 					return d.ArgErr()
 				}
