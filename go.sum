@@ -76,8 +76,6 @@ github.com/caddyserver/caddy/v2 v2.2.1 h1:Q62GWHMtztnvyRU+KPOpw6fNfeCD3SkwH7SfT1
 github.com/caddyserver/caddy/v2 v2.2.1/go.mod h1:5Fz/g7UtLz5NORoT/MdlZRAEqoLH4wrxgPUd7Wg58yU=
 github.com/caddyserver/certmagic v0.12.0 h1:1f7kxykaJkOVVpXJ8ZrC6RAO5F6+kKm9U7dBFbLNeug=
 github.com/caddyserver/certmagic v0.12.0/go.mod h1:tr26xh+9fY5dN0J6IPAlMj07qpog22PJKa7Nw7j835U=
-github.com/ccdai/libdns_alidns v0.0.0-20201105150543-c077324a7ad2 h1:uzg3ztkgov/IuNlsfjF4eXysIjgSDT/08wW4HJGZwPA=
-github.com/ccdai/libdns_alidns v0.0.0-20201105150543-c077324a7ad2/go.mod h1:OxkhU7FCP/QACuggop7aUw0N2Hq25o/MemP85DvSM3M=
 github.com/ccdai/libdns_alidns v0.0.0-20201105165235-fa3bbc47f652 h1:0rbLAw7KNxhGGX9CjxEozlTeDpRcyyaE4t2uO6Y1HjQ=
 github.com/ccdai/libdns_alidns v0.0.0-20201105165235-fa3bbc47f652/go.mod h1:OxkhU7FCP/QACuggop7aUw0N2Hq25o/MemP85DvSM3M=
 github.com/census-instrumentation/opencensus-proto v0.2.0/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
